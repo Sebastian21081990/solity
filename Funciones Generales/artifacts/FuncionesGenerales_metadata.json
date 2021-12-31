@@ -1,0 +1,154 @@
+{
+	"compiler": {
+		"version": "0.6.0+commit.26b70077"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "BlockCoinbase",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "BlockDifficulty",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "BlockNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "MsgSender",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "MsgSig",
+				"outputs": [
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "Now",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "TxGasPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {
+				"BlockCoinbase()": {
+					"notice": "dev Funcion block.coinbase"
+				},
+				"BlockDifficulty()": {
+					"notice": "dev Funcion block.difficulty"
+				},
+				"BlockNumber()": {
+					"notice": "dev Funcion block.number"
+				},
+				"MsgSender()": {
+					"notice": "dev Funcion msg.sender"
+				},
+				"MsgSig()": {
+					"notice": "dev Funcion msg.sig"
+				},
+				"Now()": {
+					"notice": "dev Funcion now"
+				},
+				"TxGasPrice()": {
+					"notice": "dev Funcion tx.gasPrice"
+				}
+			}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Funciones Generales/funciones_generales.sol": "FuncionesGenerales"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Funciones Generales/funciones_generales.sol": {
+			"keccak256": "0x1ca861151318b4e9d1a952032ff75c34a420d352d61c2d16bbe6da50c61037d1",
+			"urls": [
+				"bzz-raw://f74949b0be63e9d7b71d845612d8821c114d4830aba2e19d88a10e4e658dba48",
+				"dweb:/ipfs/Qma95rPxSPj6AcKwxX9y6LPZEv6T5zVYLWbLQNzfSuwDTK"
+			]
+		}
+	},
+	"version": 1
+}
