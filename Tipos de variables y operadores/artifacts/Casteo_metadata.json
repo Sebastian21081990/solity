@@ -1,0 +1,56 @@
+{
+	"compiler": {
+		"version": "0.5.0+commit.1d4f565a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "_k",
+						"type": "uint8"
+					}
+				],
+				"name": "convertir",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint64"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Tipos de variables y operadores/casteo_variables.sol": "Casteo"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Tipos de variables y operadores/casteo_variables.sol": {
+			"keccak256": "0x89452e2d1685540a27dd4c6c7e25ee344748b74301aab4d3bb8a54bfa167767a",
+			"urls": [
+				"bzzr://470e7c381cd6ce9fcb381ccc17f30c78b76e30ae112612159c11b312e50db958"
+			]
+		}
+	},
+	"version": 1
+}
