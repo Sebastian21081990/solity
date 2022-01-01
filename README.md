@@ -99,3 +99,10 @@ En solidity tenemos los siguientes sufijos, que nos ayudan a tratar con el tiemp
 - **days**
 - **weeks**
 - **years**
+
+## Modificadores public 
+Si añadimos el modificador public al declarar una variable, se creará una función getter
+
+- **public**
+- **private**
+- **internal**
