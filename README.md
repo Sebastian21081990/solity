@@ -68,6 +68,20 @@ contract <nombre_contrato>{
 - **uint** -> Entero sin signo, son número enteros positivos 
     `uint entero;`
 - **int** -> Entero con signo, son números enteros positivos y negativos
-    `uint entero;`
-- **uint<nroBits> -> Son enteros donde se define el número de bits de **8 - 256**, por defecto va 256
+    `int entero;`
+- **uint<nroBits>** -> Son enteros donde se define el número de bits de **8 - 256**, por defecto va 256
     `uint8 entero;`
+
+- **string** -> Son cadenas de texto UTF-8
+    `string cadena;`
+
+- **bool** -> Son variables booleanas que pueden tomar dos valores **true - false**
+    `bool boolean;`
+
+- **byte<nroBits>** -> Son variables de tipo byte **1 - 32**
+    `byte32 byte;`
+
+- **address** -> Son variables de tipo address contiene una dirección de 20 bytes, 
+                 estan asociadas a un usuario o a un contrato inteligente
+    `address direccion;`
+

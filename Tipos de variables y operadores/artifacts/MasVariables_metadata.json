@@ -1,0 +1,48 @@
+{
+	"compiler": {
+		"version": "0.6.0+commit.26b70077"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "ejemploBytes4",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Tipos de variables y operadores/mas_variables.sol": "MasVariables"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Tipos de variables y operadores/mas_variables.sol": {
+			"keccak256": "0xea8efbe65f3818db4c021e3b948579c049c96a78f82933c280b191ca8f418dca",
+			"urls": [
+				"bzz-raw://f9054f3af0bf94045bbfcf7b1941a19602ca796b35677215e68ebbfa21d69750",
+				"dweb:/ipfs/QmeC3yNjCLiHGJEWwCbVLag7Fcp4LB5LJhpKaoqbgSQpto"
+			]
+		}
+	},
+	"version": 1
+}
