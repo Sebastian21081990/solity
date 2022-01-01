@@ -63,7 +63,7 @@ contract <nombre_contrato>{
 
 ```
 
-### Tipos de datos
+## Tipos de datos
 
 - **uint** -> Entero sin signo, son número enteros positivos 
     `uint entero;`
@@ -90,7 +90,7 @@ contract <nombre_contrato>{
               no es necesario terminar con un ;
     `enum `
 
-### Unidades de tiempo
+## Unidades de tiempo
 En solidity tenemos los siguientes sufijos, que nos ayudan a tratar con el tiempo
 
 - **seconds**
