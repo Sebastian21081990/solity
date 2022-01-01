@@ -106,3 +106,9 @@ Si añadimos el modificador public al declarar una variable, se creará una func
 - **public**
 - **private**
 - **internal**
+
+## Modificadores memory y storage
+
+- **Memory** -> Se guarda la variable de forma temporal
+- **Storage** -> Se guarda la variable de forma permanente en la Blockchain
+- **payable** -> Permite enviar y recibir ether. Solo esta disponible para las variables de tipo address, La dirección debe ser la de un usuario
