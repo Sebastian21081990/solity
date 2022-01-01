@@ -1,0 +1,36 @@
+{
+	"compiler": {
+		"version": "0.5.0+commit.1d4f565a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Tipos de variables y operadores/compararStrings.sol": "compararStrings"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Tipos de variables y operadores/compararStrings.sol": {
+			"keccak256": "0xfcde06cdd1f9bb0b4469ccfa03f9e0e0b839cfcc2a6f01617ad084d6d59cb1c1",
+			"urls": [
+				"bzzr://bc58c9628334c60aaa884f5ecf3e3d2f26f7f5cf88a587170bf65328bf5991c5"
+			]
+		}
+	},
+	"version": 1
+}
