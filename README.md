@@ -62,3 +62,12 @@ contract <nombre_contrato>{
 }
 
 ```
+
+### Tipos de datos
+
+- **uint** -> Entero sin signo, son número enteros positivos 
+    `uint entero;`
+- **int** -> Entero con signo, son números enteros positivos y negativos
+    `uint entero;`
+- **uint<nroBits> -> Son enteros donde se define el número de bits de **8 - 256**, por defecto va 256
+    `uint8 entero;`
