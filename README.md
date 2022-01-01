@@ -85,3 +85,8 @@ contract <nombre_contrato>{
                  estan asociadas a un usuario o a un contrato inteligente
     `address direccion;`
 
+- **enum** -> Son tipos de datos definidos por el usuario, 
+              debe tener minimo un miembro,
+              no es necesario terminar con un ;
+    `enum `
+
