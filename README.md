@@ -90,3 +90,12 @@ contract <nombre_contrato>{
               no es necesario terminar con un ;
     `enum `
 
+### Unidades de tiempo
+En solidity tenemos los siguientes sufijos, que nos ayudan a tratar con el tiempo
+
+- **seconds**
+- **minutes**
+- **hours**
+- **days**
+- **weeks**
+- **years**
