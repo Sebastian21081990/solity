@@ -7,17 +7,8 @@
 		"abi": [
 			{
 				"constant": true,
-				"inputs": [
-					{
-						"name": "_i",
-						"type": "string"
-					},
-					{
-						"name": "_j",
-						"type": "string"
-					}
-				],
-				"name": "Comparar",
+				"inputs": [],
+				"name": "test3",
 				"outputs": [
 					{
 						"name": "",
@@ -25,7 +16,185 @@
 					}
 				],
 				"payable": false,
-				"stateMutability": "pure",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "test5",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "division",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "resta",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "exponenciacion",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "_k",
+						"type": "uint256"
+					}
+				],
+				"name": "divisibilidad",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "test2",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "test1",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "residuo",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "suma",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "test4",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "multiplicacion",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "_k",
+						"type": "uint256"
+					}
+				],
+				"name": "divisibilidadV2",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -38,7 +207,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Tipos de variables y operadores/compararStrings.sol": "CompararStrings"
+			"Tipos de variables y operadores/operadores.sol": "CompararStrings"
 		},
 		"evmVersion": "byzantium",
 		"libraries": {},
@@ -49,10 +218,10 @@
 		"remappings": []
 	},
 	"sources": {
-		"Tipos de variables y operadores/compararStrings.sol": {
-			"keccak256": "0xb87b425da0460837c3800ae9759dbd33f3822e24c5d6a7b7f7370330c53cf5a7",
+		"Tipos de variables y operadores/operadores.sol": {
+			"keccak256": "0xfe0b9cc3e9c16a31342c3f843e1cf3ba9651bf405066626a62337c4742273e7a",
 			"urls": [
-				"bzzr://7f3f4490950d66313eaa05524f47e937d445c7e862eea499a093f411b05b538d"
+				"bzzr://340ccaac7af6eaa7de4b47e91f43a1653bb11b0c10a36912f3eafcc4631759db"
 			]
 		}
 	},
