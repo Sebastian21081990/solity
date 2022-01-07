@@ -114,9 +114,18 @@ Si añadimos el modificador public al declarar una variable, se creará una func
 - **payable** -> Permite enviar y recibir ether. Solo esta disponible para las variables de tipo address, La dirección debe ser la de un usuario
 
 ## Operadores matemáticos
-- + -> Suma
+- '+' -> Suma
 - - -> Resta
 - * -> Multiplicación
 - / -> División
 - % -> Módulo
 - ** -> Exponenciación
+
+## Struct
+Permite crear un tipo de dato
+```
+struct ONG{
+       address ong;
+       string nombre; 
+    }
+```

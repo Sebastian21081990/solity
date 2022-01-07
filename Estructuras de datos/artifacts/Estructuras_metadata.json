@@ -1,0 +1,36 @@
+{
+	"compiler": {
+		"version": "0.5.0+commit.1d4f565a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Estructuras de datos/Estructuras.sol": "Estructuras"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Estructuras de datos/Estructuras.sol": {
+			"keccak256": "0x14ac38709acffd2689433b48a9183cd2e1c892f255b621aa5c9f3fc6fac8a899",
+			"urls": [
+				"bzzr://ff82cd91e51696a3b37a017d39042595c0c5d1b135a33afd6649cc3ad4846f7c"
+			]
+		}
+	},
+	"version": 1
+}
