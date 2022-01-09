@@ -129,3 +129,13 @@ struct ONG{
        string nombre; 
     }
 ```
+
+## Mappings
+Es una asociación clave-valor para guardar y ver datos, la clave puede ser cualquier tipo de dato excepto un mapping
+```
+
+mapping(uint => string) listaAlumnos;
+
+listaAlumnos[1] = "David Vivanco";
+
+```
