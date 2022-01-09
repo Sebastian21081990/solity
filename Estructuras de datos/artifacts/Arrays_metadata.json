@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.5.0+commit.1d4f565a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "array_enteros",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_numero",
+						"type": "uint256"
+					}
+				],
+				"name": "modificarArray",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Estructuras de datos/Arrays.sol": "Arrays"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Estructuras de datos/Arrays.sol": {
+			"keccak256": "0x937667c71e7d6eebb29b51d2b9c6c27a0b8ff98ce5f1e74fa3bb86ab02740cc1",
+			"urls": [
+				"bzzr://c833d4a64c9f553962db211f51e02113c6f552f78b431ba4e0f394f8133bb1b9"
+			]
+		}
+	},
+	"version": 1
+}

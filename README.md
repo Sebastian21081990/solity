@@ -134,8 +134,24 @@ struct ONG{
 Es una asociación clave-valor para guardar y ver datos, la clave puede ser cualquier tipo de dato excepto un mapping
 ```
 
-mapping(uint => string) listaAlumnos;
+mapping(uint => string) public listaAlumnos;
 
 listaAlumnos[1] = "David Vivanco";
 
+```
+
+## Arrays
+Es un tipo de estructutas de datos que almacenar un nconjunto de valores del mismo tipo, existen dos tipos:
+- Array de longitud fija
+```
+uint[5] arrayEstatico;
+```
+- Array dinamico
+
+
+```
+uint[] arrayDinamico;
+
+//Función para agregar valores a un array dinámico
+arrayDinamico-push(5);
 ```
